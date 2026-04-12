@@ -1,0 +1,128 @@
+body{
+    display: flex;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #050505;
+
+}   
+
+.menu{
+    text-align: center;
+    width: 350px;
+    padding: 50px 40px;
+    background: rgba(0, 0, 0, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 0 25px black;
+}
+
+.menuBtn {
+    width: 200px;
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid red;
+    background: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#menuTitle {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    text-shadow: 0 0 15px red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menuBtn {
+    width: 200px;
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid red;
+    background: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menuBtn:hover {
+    background: red;
+    color: black;
+    scale: 0.99;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -350px;      
+    width: 300px;
+    height: 100%;
+    background: #060606;
+    padding: 40px 20px;
+    transition: right 0.4s ease;
+}
+
+.sidebar.active {
+    right: 0;   
+}
+
+.levelBtn {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    background: #1a1919;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.levelBtn:hover {
+    background: #444;
+    transform: translateX(-5px);
+}
+
+
+footer{
+    position: absolute;
+    top: 95%;
+}
+
+#mainContent{
+    display: none;
+}
+
+
+#loadingScreen{
+    position: fixed;
+    inset: 0;                
+    background: #111;       
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+
+.loading-bar{
+    width: 400px;
+    height: 10px;
+    background-color:grey;
+    margin-top: 20px;
+}
+
+.loading-box{
+    color: white;
+    text-shadow: 1px 1px 2px red;
+    text-align: center;
+}
+
+.loading-fill{
+    width: 0%;
+    height: 100%;
+    background-color: rgb(138, 0, 0);
+    transition: width 5s linear;
+}
+

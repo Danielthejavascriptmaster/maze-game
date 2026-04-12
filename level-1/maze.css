@@ -1,0 +1,118 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #1a1a1a;
+}
+
+.container{
+    width: 600px;
+    height: 600px;
+    position: relative;
+    background-color: black;
+}
+
+.start_box{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.tunnel_1{
+    top: 45px;
+    left: 120px;
+    width: 360px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+
+}
+
+.tunnel_2{
+    background-color: blue;
+    position: absolute;
+    height: 280px;
+    width: 40px;
+    top: 95px;
+    left: 440px;
+}
+
+.tunnel_3{
+    background-color: blue;
+    position: absolute;
+    height: 40px;
+    width: 350px;
+    top: 335px;
+    left: 90px;
+}
+
+.tunnel_4{
+    background-color: blue;
+    position:absolute;
+    width: 40px;
+    height: 150px;
+    top: 370px;
+    left: 90px;
+}
+
+.tunnel_5{
+    background-color: blue;
+    position: absolute;
+    width: 350px;
+    
+    height: 30px;
+    top: 520px;
+    left: 90px;
+}
+
+.tunnel_6{
+    background-color: blue;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 500px;
+    left: 440px;
+    text-align: center;
+    color: white;
+}
+
+
+#loadingScreen{
+    position: fixed;
+    inset: 0;                
+    background: #111;       
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+
+.loading-bar{
+    width: 400px;
+    height: 10px;
+    background-color:grey;
+    margin-top: 20px;
+}
+
+.loading-box{
+    color: white;
+    text-shadow: 1px 1px 2px red;
+    text-align: center;
+}
+
+.loading-fill{
+    width: 0%;
+    height: 100%;
+    background-color: rgb(138, 0, 0);
+    transition: width 5s linear;
+}

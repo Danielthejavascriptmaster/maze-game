@@ -1,0 +1,158 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #1a1a1a;
+}
+
+.container{
+    width: 1000px;
+    height: 700px;
+    position: relative;
+    background-color: black;
+}
+
+.start_box{
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    margin: 20px;
+    position: absolute;
+    top: 10px;
+    left: 800px;
+    text-align: center;
+}
+
+.start_box p{
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+.tunnel_1{
+    width: 400px;
+    height: 50px;
+    background-color: yellow;
+    position: absolute;
+    top: 80px;
+    left: 420px;
+}
+
+.tunnel_2{
+    background-color: yellow;
+    position: absolute;
+    height: 100px;
+    width: 50px;
+    top: 130px;
+    left: 420px;
+}
+
+.tunnel_3{
+    background-color: yellow;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    top: 230px;
+    left: 270px;
+}
+
+.tunnel_4{
+    background-color: yellow;
+    position: absolute;
+    width: 40px;
+    height: 100px;
+    top: 130px;
+    left: 270px;
+}
+
+.tunnel_5{
+    background-color: yellow;
+    position: absolute;
+    width: 190px;
+    height: 40px;
+    top: 90px;
+    left: 120px;
+}
+
+.tunnel_6{
+    background-color: yellow;
+    position: absolute;
+    width: 40px;
+    height: 480px;
+    top: 130px;
+    left: 120px;
+}
+
+.tunnel_7{
+    background-color: yellow;
+    position: absolute;
+    width: 430px;
+    height: 30px;
+    top: 610px;
+    left: 120px;
+}
+
+.tunnel_8{
+    background-color:yellow;
+    position: absolute;
+    width: 30px;
+    height: 250px;
+    top: 360px;
+    left: 520px;
+}
+
+.tunnel_9{
+    background-color: yellow;
+    position: absolute;
+    height: 20px;
+    width: 300px;
+    top: 350px;
+    left: 520px;
+}
+
+.tunnel_10{
+    background-color: yellow;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 330px;
+    left: 800px;
+    text-align: center;
+}
+
+.tunnel_10 p{
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+#loadingScreen{
+    position: fixed;
+    inset: 0;                
+    background: #111;       
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+
+#loading-bar{
+    width: 400px;
+    height: 10px;
+    background-color:grey;
+    margin-top: 20px;
+}
+
+#loading-box{
+    color: white;
+    text-shadow: 1px 1px 2px red;
+    text-align: center;
+}
+
+#loading-fill{
+    width: 0%;
+    height: 100%;
+    background-color: rgb(138, 0, 0);
+    transition: width 5s linear;
+}
