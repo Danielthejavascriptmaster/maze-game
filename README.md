@@ -1,10 +1,30 @@
-Welcome to my game project called path finder!
+ Welcome to my game project called Path Finder!
 
-This is a horror themed maze game where you cursor is not supposed to touch the black background othewhise you lose. Well you dont actually lose u have infinite tries but u have to start over in teh start box if you cheat of course. In total there are 3 playeble levels starting from level one being the blue level also know easiest level in the game FOR NOW. Then we have the yellow level which is better known as level 2 this one is still easy but its harder and prepares you for the final and last level which features a jumpscare.
+This is a horror-themed maze game where your cursor is not supposed to touch the black background—otherwise, you lose. Well, you don’t actually lose; you have infinite tries, but you have to start over at the start box if you fail or try to cheat.
 
-Im obviously not the first person to do this i got the idea of the project from when i was a kid 8 ish years ago when the horror maze game was popular many people used to prank others with it and play it to upload to their channel for content. I have been working on this proect on and off 4-5 months and thats only beacuse i forgot about the project after i wasnt able to fix the jumpscare so i said "ill just finish this later" and later ended up beinbg some months after so basically the only thing that was left was a jumpscare and a winning page.
+In total, there are 3 playable levels, starting with Level 1, the blue level, also known as the easiest level in the game (for now). Then we have the yellow level, also known as Level 2. This one is still easy, but harder than Level 1 and prepares you for the final level, which features a jumpscare.
 
-I really enjoyed making this projecy and it made me understand dom manipulation better practising loading screens which i have never done before and making cool sutff like the jumpscare which is the best feature of the website (in my opinion) and the only reason i started the project was beacuse i was trying to troll other or make something memorable from my childhood. Another reason i made this project was beacuse i am practising my js and the ability to use html, css and javascirpt together but im mainly strenghtening my javascript and css little by little.
+I’m obviously not the first person to create a game like this. I got the idea from when I was a kid about 8 years ago, when horror maze games were popular. Many people used to prank others with them or upload gameplay videos to their channels for content.
 
-There are sone stuff i would love to add but i will move on for now unless someone really want me to add it and i will try my best despite not being that good in javascript. Some things i was alread planning to add before i decided to publish it was a score tracker with a feedback at the end so if you didnt fail once it would say "outstanding perfomance" and i also didnt add anything in the settings. Some other stuff i wanted to add is more levels, easter eggs, different themes so after 5 levels it goes from horror to light or candy and yes i was planning on adding that many levels so that tehre was a variety of themes, In total i wanted to add maybe around 30 levels so that it can be a actay game sorta like candy crush iwht a lot of levels that you can just play and enjoy whil not getting boreed so making each level speaciell coudl have filled that field but despite all those ideas i choose to move on and let this project remain as my best first solo game project. 
+I have been working on this project on and off for about 4–5 months. That’s mostly because I forgot about it after I wasn’t able to fix the jumpscare, so I said, “I’ll just finish this later.” And “later” ended up being a few months afterward. At that point, the only things left were the jumpscare and a winning page.
+
+I really enjoyed making this project. It helped me understand DOM manipulation better, practice loading screens (which I had never done before), and build cool features like the jumpscare—which is, in my opinion, the best part of the website. The main reason I started this project was to recreate something from my childhood and make something memorable.
+
+Another reason I made this project is because I am practicing my JavaScript and improving my ability to use HTML, CSS, and JavaScript together. I am mainly focusing on strengthening my JavaScript and CSS skills little by little.
+
+There are some things I would love to add in the future, but for now I will move on—unless someone really wants me to continue improving it. I will try my best, even though I’m still learning JavaScript.
+
+Some features I was planning to add before publishing include:
+
+A score tracker
+End-of-game feedback (for example: “Outstanding performance” if you never failed)
+A settings menu (currently not implemented)
+
+Other ideas I had include:
+
+More levels
+Easter eggs
+Different themes (for example, starting with horror and later shifting to lighter or candy-themed levels)
+
+I was even planning up to around 30 levels, similar to games like Candy Crush, so players could keep playing without getting bored. Each level would have been unique and special. However, I decided to move on and leave this project as my first solo game project and one of my best learning experiences so far
 
