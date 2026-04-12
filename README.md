@@ -28,3 +28,14 @@ Different themes (for example, starting with horror and later shifting to lighte
 
 I was even planning up to around 30 levels, similar to games like Candy Crush, so players could keep playing without getting bored. Each level would have been unique and special. However, I decided to move on and leave this project as my first solo game project and one of my best learning experiences so far
 
+When playing, start from the start box since I never added a function that automatically places you there. After every time you touch the wall, an alert will pop up saying you touched the wall with an insult, and after every fail you have to manually go back to the starting square.
+
+To move around the maze, you have to use your cursor, which, when in contact with the end box, teleports you to the next level. The start and end squares are really easy to spot; there is text, and the maze isn’t all that complicated. Even a 5-year-old could navigate their way through the maze (by spotting the start and end and figuring out which way to take, not actually “beating” the levels).
+
+At the end, pressing restart or the button that’s there takes you back to the main menu, and you can also access any level you want by pressing “Levels,” which opens a sidebar that shows all the levels. However, don’t do this if you haven’t completed all the levels, otherwise you are spoiling the fun for yourself.
+
+Lastly, I used JavaScript, HTML, and CSS for this project—nothing else—so you could also easily make it yourself by either copying the code line by line or making it your own way. The wall detection and teleportation were made using addEventListener, so it’s really not that hard. Good luck if you ever try to make one of these horror maze games.
+
+⚠️ Warning: There is a jumpscare in Level 3, which is the dark red level. It triggers after about 5–6 failures and only happens once unless you refresh the page.
+
+Sometimes after triggering the jumpscare, the audio gets messed up for some reason, so the first jumpscare is the best one. Make sure you don’t automatically fail to trigger it, as that can mess it up as well. Try to take your time if you are only playing that level specifically for the jumpscare. Wait a minute before failing 5 times.
