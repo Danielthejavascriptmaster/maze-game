@@ -55,12 +55,14 @@ function gameOver(){
     failCount++;
     console.log(failCount);
 
-    window.alert("you touched the wall dummy");
+    
      if(failCount >= 5){
             triggerJumpscare();
             return; // ❗ stops alert from running
         }
 
+
+        window.alert("you touched the wall dummy");
 
     };
 
@@ -77,7 +79,7 @@ function triggerJumpscare(){
     setTimeout(() => {
         jumpscareAudio.currentTime = 0;
         jumpscareAudio.play();
-    }, 500);
+    }, 1000);
 }
 
 
