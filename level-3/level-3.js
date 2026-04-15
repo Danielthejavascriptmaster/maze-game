@@ -56,7 +56,7 @@ function gameOver(){
     console.log(failCount);
 
     
-     if(failCount >= 5){
+     if(failCount >= 2){
             triggerJumpscare();
             return; // ❗ stops alert from running
         }
