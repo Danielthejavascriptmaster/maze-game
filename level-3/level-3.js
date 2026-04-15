@@ -79,7 +79,7 @@ function triggerJumpscare(){
     setTimeout(() => {
         jumpscareAudio.currentTime = 0;
         jumpscareAudio.play();
-    }, 1000);
+    }, 500);
 }
 
 
